@@ -15,6 +15,11 @@ function App() {
   return (
     <> 
       <h1>Healthy Foods</h1>
+           
+  {/* Tertiary Operator.
+      {fooditems.length === 0 ? <h4>I am Still Hungry</h4> : null}
+
+  Logical Operators. */}
       {fooditems.length === 0 && <h4>I am Hungry</h4>}
        
       <ul className="list-group">
