@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   //let fooditems = []; 
-  //let fooditems = ["Dal", "Green Salad", "Milk", "Green Vegetables", "Roti", "Ghee"];
+  let fooditems = ["Dal", "Green Salad", "Milk", "Green Vegetables", "Roti", "Ghee"];
 
   return (
     <> 
@@ -30,8 +30,8 @@ function App() {
        
       </ul> */}
 
-      <ErrorMessage></ErrorMessage>
-      <Fooditems></Fooditems>
+      <ErrorMessage food = { fooditems }></ErrorMessage>
+      <Fooditems food = { fooditems }></Fooditems>
 
     </>
   ); 
