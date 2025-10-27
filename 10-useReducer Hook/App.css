@@ -1,0 +1,13 @@
+input{
+    width: 100%;
+    border-radius: 0.5rem;
+    height: 100%;
+}
+
+.int-row{
+    margin: 10px 5px;
+}
+
+.int-button{
+    min-width: 80px
+}
