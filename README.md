@@ -44,9 +44,15 @@ Hola-React is designed to provide a clean, lightweight, and scalable starting po
 
   For production build:
   
-  ```bash
+   ```bash
     npm run build
     # or
     yarn build
-```
+   ```
 This will generate optimized static files in build/ (or the equivalent output folder) ready for deployment.
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by [Sohan Samanta](https://github.com/Sohan-hub11)
